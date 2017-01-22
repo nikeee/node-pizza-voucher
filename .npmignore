@@ -1,0 +1,7 @@
+.vscode
+Interfaces.js
+*.ts
+.travis.yml
+.editorconfig
+.gitignore
+tsconfig.json

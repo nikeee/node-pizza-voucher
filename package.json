@@ -1,0 +1,34 @@
+{
+  "name": "pizza-voucher",
+  "version": "1.0.0",
+  "description": "pizza.de voucher cli tool",
+  "main": "pizza.js",
+  "bin": {
+    "pizza-voucher": "bin/pizza.js"
+  },
+  "repository": "https://github.com/nikeee/node-pizza-voucher",
+  "dependencies": {
+    "easy-table": "^1.0.0",
+    "moment": "^2.10.6",
+    "promptly": "^0.2.1",
+    "request": "^2.67.0",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "@types/easy-table": "0.0.31",
+    "@types/promptly": "^1.1.28",
+    "@types/request": "0.0.39",
+    "@types/request-promise": "^4.1.33",
+    "@types/yargs": "^6.5.0",
+    "typescript": "^2.1.5"
+  },
+  "scripts": {
+    "test": "tsc",
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "pizza"
+  ],
+  "author": "Niklas Mollenhauer",
+  "license": "MIT"
+}
