@@ -25,7 +25,7 @@ Full help:
 $ pizza-voucher
 Commands:
   redeem  Redeem a pizza.de voucher code.
-  list    List current available vouchers.
+  list    List current available vouchers.                                        [aliases: ls]
 
 $ pizza-voucher list
 Options:
