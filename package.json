@@ -10,16 +10,15 @@
   "dependencies": {
     "easy-table": "^1.0.0",
     "moment": "^2.10.6",
+    "needle": "^1.4.3",
     "promptly": "^0.2.1",
-    "request": "^2.67.0",
     "yargs": "^6.6.0"
   },
   "devDependencies": {
     "@types/easy-table": "0.0.31",
     "@types/promptly": "^1.1.28",
-    "@types/request": "0.0.39",
-    "@types/request-promise": "^4.1.33",
     "@types/yargs": "^6.5.0",
+    "@types/needle": "^0.7.29",
     "typescript": "^2.1.5"
   },
   "scripts": {

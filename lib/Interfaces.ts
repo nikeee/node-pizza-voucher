@@ -1,31 +1,32 @@
-interface IArgs { user: string; password: string; }
-interface IRedeemArgs extends IArgs { voucher: string; }
+interface PizzaArgs { user: string; password: string; }
+type ListArgs = PizzaArgs;
+interface RedeemArgs extends PizzaArgs { voucher: string; }
 
-interface IPizzaError
-{
+interface PizzaError {
 	description: string;
 	code: string;
 }
 
-interface IApiResponse
-{
+interface ApiResponse {
 	success: boolean;
-	error?: IPizzaError;
+	error?: PizzaError;
 }
-interface ILoginResponse extends IApiResponse { }
-interface IVoucherAddResponse extends IApiResponse
-{
+interface LoginResponse extends ApiResponse {
+	/**
+	 * Not used in this tool. May be used to log in again without the password.
+	 */
+	token: string;
+}
+interface VoucherAddResponse extends ApiResponse {
 	voucher: string;
-	vouchers: IVoucher[];
+	vouchers: Voucher[];
 }
-interface IVoucherListResponse extends IApiResponse
-{
-	voucher: IVoucher[];
-	vouchers: IVoucher[];
+interface VoucherListResponse extends ApiResponse {
+	voucher: Voucher[];
+	vouchers: Voucher[];
 }
 
-interface IVoucher
-{
+interface Voucher {
 	limit_per_order: number;
 	valid_from: string | Date;
 	instance: number;
@@ -38,3 +39,5 @@ interface IVoucher
 	original_value: number;
 	code: string;
 }
+
+interface Cookies { [key: string]: string }
