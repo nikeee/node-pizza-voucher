@@ -8,18 +8,18 @@
   },
   "repository": "https://github.com/nikeee/node-pizza-voucher",
   "dependencies": {
-    "easy-table": "^1.0.0",
-    "moment": "^2.10.6",
-    "needle": "^1.4.3",
+    "easy-table": "^1.1.0",
+    "moment": "^2.19.1",
+    "needle": "^1.6.0",
     "promptly": "^0.2.1",
     "yargs": "^6.6.0"
   },
   "devDependencies": {
     "@types/easy-table": "0.0.31",
+    "@types/needle": "^0.7.31",
     "@types/promptly": "^1.1.28",
-    "@types/yargs": "^6.5.0",
-    "@types/needle": "^0.7.29",
-    "typescript": "^2.1.5"
+    "@types/yargs": "^6.6.0",
+    "typescript": "^2.6.1"
   },
   "scripts": {
     "test": "tsc",
