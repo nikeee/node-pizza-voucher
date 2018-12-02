@@ -2,7 +2,7 @@
   "name": "pizza-voucher",
   "version": "2.0.1",
   "description": "pizza.de voucher cli tool",
-  "main": "pizza.js",
+  "main": "bin/pizza.js",
   "bin": {
     "pizza-voucher": "bin/pizza.js"
   },
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "test": "tsc --noEmit",
-    "prepublish": "tsc"
+    "prepare": "tsc"
   },
   "keywords": [
     "pizza"
