@@ -16,9 +16,9 @@
   },
   "devDependencies": {
     "@types/easy-table": "0.0.32",
-    "@types/needle": "^2.0.2",
+    "@types/needle": "^2.0.3",
     "@types/promptly": "^1.1.28",
-    "@types/yargs": "^12.0.1",
+    "@types/yargs": "^12.0.5",
     "typescript": "^3.2.2"
   },
   "scripts": {
