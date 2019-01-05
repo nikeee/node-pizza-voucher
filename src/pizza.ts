@@ -20,8 +20,7 @@ const listCommand = {
 	command: "list",
 	aliases: ["ls"],
 	desc: "List current available vouchers.",
-	builder: (_: yargs.Argv) => _,
-	handler: (argv: ListArgs) => list(argv)
+	handler: (argv: ListArgs) => list(argv),
 };
 const redeemCommand = {
 	command: "redeem",
@@ -34,7 +33,7 @@ const redeemCommand = {
 			describe: "pizza.de voucher code to redeem"
 		}
 	},
-	handler: (argv: RedeemArgs) => redeem(argv)
+	handler: (argv: RedeemArgs) => redeem(argv),
 };
 
 const args = yargs
