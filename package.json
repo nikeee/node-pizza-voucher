@@ -1,6 +1,6 @@
 {
   "name": "pizza-voucher",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "pizza.de voucher cli tool",
   "main": "bin/pizza.js",
   "bin": {
