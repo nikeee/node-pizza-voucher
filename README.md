@@ -1,6 +1,9 @@
 # node-pizza-voucher [![Build Status](https://travis-ci.org/nikeee/node-pizza-voucher.svg?branch=master)](https://travis-ci.org/nikeee/node-pizza-voucher)
 Redeem and list pizza.de voucher codes via the command line.
 
+## Archived as of 2019-05-18
+pizza.de is now part of takeaway.com and may use different vouchers. This repository is therefore useless now.
+
 ## Requirements
 - Node.js with native promises
 - For development: TypeScript 2.1 / Dev-Dependencies
